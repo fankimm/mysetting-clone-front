@@ -1,0 +1,39 @@
+{
+    "name": "mysetting-clone",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "craco build",
+        "start": "craco start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@ant-design/icons": "^4.6.2",
+        "@craco/craco": "^6.2.0",
+        "@zeit/next-less": "^1.0.1",
+        "antd": "^4.16.11",
+        "craco-antd": "^1.19.0",
+        "craco-less": "^1.18.0",
+        "less": "^4.1.1",
+        "less-loader": "^10.0.1",
+        "next": "11.0.1",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-scripts": "^4.0.1",
+        "sass": "^1.37.5",
+        "sass-loader": "^12.1.0"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.3.1",
+        "eslint": "7.32.0",
+        "eslint-config-next": "11.0.1",
+        "postcss": "^8.3.6",
+        "tailwindcss": "^2.2.7"
+    },
+    "jest": {
+        "transformIgnorePatterns": [
+            "/node_modules/(?!antd|@ant-design|rc-.+?|@babel/runtime).+(js|jsx)$"
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+/* .modalBodyContainer{} */
+.onCareerModalRow{
+    
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    flex-wrap: nowrap;
+}
+
+.onCareerModalRowWithDescription{
+    
+    /* margin-bottom: 20px; */
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    flex-wrap: nowrap;
+}
+.onCareerModalCol{
+    
+
+}
+
+.bottomDescription{
+    display: flex;
+
+    color: lightgray;
+}

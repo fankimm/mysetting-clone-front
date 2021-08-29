@@ -1,0 +1,16 @@
+<svg 
+        aria-hidden="true" 
+        focusable="false" 
+        role="img" 
+        xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 512 512" 
+        width="30" 
+        height="30" 
+        color="#2c9c6a">
+    <rect width="248" height="248" fill="currentColor"></rect>
+    <polygon points="124 264 186 388 248 512 124 512 0 512 62 388 124 264" fill="currentColor"></polygon>
+    <circle cx="388" cy="124" r="124" fill="currentColor"></circle>
+    <rect x="264" y="452" width="248" height="60" fill="currentColor"></rect>
+    <rect x="264" y="264" width="248" height="60" fill="currentColor"></rect>
+<rect x="264" y="358" width="248" height="60" fill="currentColor"></rect>
+</svg>

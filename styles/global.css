@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+  --title-size: 18px;
+  --title-weight:500;
+  --hover-green: #24b47e;
+  --icon-gray: #666;
+}
+
+html,
+body,a {
+  
+  font-family: 'Lato', sans-serif;
+}
+
+
+a:hover{
+  color:#736c6c
+}
+
+
+
+* {
+  /* background-color: black;
+  color: white; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

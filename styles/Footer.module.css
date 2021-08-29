@@ -1,0 +1,40 @@
+.footerContainer{
+    width:92%;
+    margin:auto;
+    /* padding-top: 35px; */
+    border-top: 1px solid lightgray;
+    height: 129px;
+
+}
+
+.footerChildContainer{
+
+}
+
+.footerList{
+    padding:0;
+    font-size: 12px;
+    margin:auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footerList li{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.footerLogo{
+    display: flex;
+    margin: auto;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+@media screen and (max-width:768px) {
+    .footerList{
+        flex-direction: column;
+        text-align: center;
+    }
+}
